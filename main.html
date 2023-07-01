@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Character Generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Character Generator</h1>
+    </nav>
+    <header>
+        <h1 id="character"></h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <label for="sum">Character Name:</label>
+                <input type="text" id="char-name" name="sum">
+            </div>
+            <div>
+                <input type="button" id="enter-name" value="Enter Name">
+            </div>
+            <div>
+                <label for="sum">Strength:</label>
+                <input type="text" id="strength" name="sum">
+            </div>
+            <div>
+                <input type="button" id="enter-str" value="Enter Strength">
+            </div>
+            <div>
+                <label for="sum">Dexterity:</label>
+                <input type="text" id="dexterity" name="sum">
+            </div>
+            <div>
+                <input type="button" id="enter-dex" value="Enter Dexterity">
+            </div>
+            <div>
+                <label for="sum">Constitution:</label>
+                <input type="text" id="constitution" name="sum" >
+            </div>
+            <div>
+                <input type="button" id="enter-con" value="Enter Constitution">
+            </div>
+            <div>
+                <label for="sum">Intelligence:</label>
+                <input type="text" id="intelligence" name="sum" >
+            </div>
+            <div>
+                <input type="button" id="enter-int" value="Enter Intelligence">
+            </div>
+            <div>
+                <label for="sum">Wisdom</label>
+                <input type="text" id="wisdom" name="sum" >
+            </div>
+            <div>
+                <input type="button" id="enter-wis" value="Enter Wisdom">
+            </div>
+            <div>
+                <label for="sum">Charisma</label>
+                <input type="text" id="charisma" name="sum" >
+            </div>
+            <div>
+                <input type="button" id="enter-chr" value="Enter Charisma">
+            </div>
+            <div>
+                <input type="button" id="random" value="Random Character">
+            </div>
+            <div>
+                <label>Character Name:</label>
+                <span id="name"></span>
+            </div>
+            <div>
+                <label>Strength Modifier:</label>
+                <span id="str-mod"></span>
+            </div>
+            <div>
+                <label>Dexterity Modifier:</label>
+                <span id="dex-mod"></span>
+            </div>
+            <div>
+                <label>Constitution Modifier:</label>
+                <span id="con-mod"></span>
+            </div>
+            <div>
+                <label>Intelligence Modifier:</label>
+                <span id="int-mod"></span>
+            </div>
+            <div>
+                <label>Wisdom Modifier:</label>
+                <span id="wis-mod"></span>
+            </div>
+            <div>
+                <label>Charisma Modifier:</label>
+                <span id="chr-mod"></span>
+            </div>
+        </section>
+    </main>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/characters.js"></script>
+</body>
+
+</html>
